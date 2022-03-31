@@ -25,3 +25,7 @@ class StackPositionedFloatButton extends StatelessWidget {
     );
   }
 }
+
+// Stack widget is a built-in widget in flutter SDK which allows us to make a layer of widgets by putting them on top of each other.
+// In Flutter, Stack is a container that allows placing its child widget on top of each other, the first child widget will be placed in the bottom. Stack is a solution to save space of the application. You can change the order of the child widgets to create a simple animation.
+// akti container ar upor onno kicu rakhte hole stack widget use korte hoy.
