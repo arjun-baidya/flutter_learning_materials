@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learning_materials/flutter_widgets/appbar_text_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/image_widget.dart';
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
       // home: const ListtileWidget(),
       // home: const StackPositionedFloatButton(),
       // home: const ImageWidget(),
-      home: const LiquidSwipeWidget(),
+      // home: const LiquidSwipeWidget(),
+      home: const CardWidget(),
     );
   }
 }
