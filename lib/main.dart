@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       // home: const CardWidget(),
       // home: const GridViewWidget(),
       // home: const ExpandedWidget(),
-      home: const PageViewWidget(),
+      // home: const PageViewWidget(),
     );
   }
 }
