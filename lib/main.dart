@@ -3,6 +3,7 @@ import 'package:flutter_learning_materials/flutter_widgets/appbar_text_widget.da
 import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/expanded_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/grid_view_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/image_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/liquid_swipe_widget.dart';
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
       // home: const ImageWidget(),
       // home: const LiquidSwipeWidget(),
       // home: const CardWidget(),
-      home: const GridViewWidget(),
+      // home: const GridViewWidget(),
+      home: const ExpandedWidget(),
     );
   }
 }
