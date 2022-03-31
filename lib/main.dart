@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_learning_materials/flutter_widgets/appbar_text_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/listtile_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/mediaquery_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/row_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/safearea_widget.dart';
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
       // home: const ColumnWidget(),
       // home:  const RowWidget(),
       // home: const SingleChildScroleViewWidget(),
-      home:  const MediaqueryWidget(),
+      // home:  const MediaqueryWidget(),
+      home: const ListtileWidget(),
     );
   }
 }
