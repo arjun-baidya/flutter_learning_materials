@@ -9,6 +9,7 @@ import 'package:flutter_learning_materials/flutter_widgets/image_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/liquid_swipe_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/listtile_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/mediaquery_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/page_view_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/row_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/safearea_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/singlechildscroleview_widget.dart';
@@ -43,7 +44,8 @@ class MyApp extends StatelessWidget {
       // home: const LiquidSwipeWidget(),
       // home: const CardWidget(),
       // home: const GridViewWidget(),
-      home: const ExpandedWidget(),
+      // home: const ExpandedWidget(),
+      home: const PageViewWidget(),
     );
   }
 }
