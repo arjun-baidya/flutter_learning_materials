@@ -3,6 +3,7 @@ import 'package:flutter_learning_materials/flutter_widgets/appbar_text_widget.da
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/image_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/liquid_swipe_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/listtile_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/mediaquery_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/row_widget.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       // home:  const MediaqueryWidget(),
       // home: const ListtileWidget(),
       // home: const StackPositionedFloatButton(),
-      home: const ImageWidget(),
+      // home: const ImageWidget(),
+      home: const LiquidSwipeWidget(),
     );
   }
 }
