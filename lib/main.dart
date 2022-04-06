@@ -5,6 +5,7 @@ import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/expanded_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/gradient.dart';
 import 'package:flutter_learning_materials/flutter_widgets/grid_view_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/image_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/liquid_swipe_widget.dart';
@@ -51,7 +52,8 @@ class MyApp extends StatelessWidget {
       // home: const PageViewWidget(),
       // home: const BottomNavigationWidget(),
       // home: const TabBarWidget(),
-      home: const SliverAppBarWidget(),
+      // home: const SliverAppBarWidget(),
+      home: const GradientWidget(),
     );
   }
 }
