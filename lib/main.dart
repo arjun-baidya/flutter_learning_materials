@@ -7,6 +7,7 @@ import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart
 import 'package:flutter_learning_materials/flutter_widgets/expanded_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/gradient.dart';
 import 'package:flutter_learning_materials/flutter_widgets/grid_view_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/image_picker_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/image_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/liquid_swipe_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/listtile_widget.dart';
@@ -53,7 +54,8 @@ class MyApp extends StatelessWidget {
       // home: const BottomNavigationWidget(),
       // home: const TabBarWidget(),
       // home: const SliverAppBarWidget(),
-      home: const GradientWidget(),
+      // home: const GradientWidget(),
+      home: const ImagePickerWidget(),
     );
   }
 }
