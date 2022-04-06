@@ -5,6 +5,7 @@ import 'package:flutter_learning_materials/flutter_widgets/bottom_navigationbar_
 import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/curved_navigation_bar.dart';
 import 'package:flutter_learning_materials/flutter_widgets/expanded_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/gradient.dart';
 import 'package:flutter_learning_materials/flutter_widgets/grid_view_widget.dart';
@@ -59,7 +60,8 @@ class MyApp extends StatelessWidget {
       // home: const GradientWidget(),
       // home: const ImagePickerWidget(),
       // home: const ModalBottonWidget(),
-      home: const AlertDialogWidget(),
+      // home: const AlertDialogWidget(),
+      home: const CarvedNavbarWidget(),
     );
   }
 }
