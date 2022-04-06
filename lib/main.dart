@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_materials/flutter_widgets/alert_dialog_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/appbar_text_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/bottom_navigationbar_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
@@ -57,7 +58,8 @@ class MyApp extends StatelessWidget {
       // home: const SliverAppBarWidget(),
       // home: const GradientWidget(),
       // home: const ImagePickerWidget(),
-      home: const ModalBottonWidget(),
+      // home: const ModalBottonWidget(),
+      home: const AlertDialogWidget(),
     );
   }
 }
