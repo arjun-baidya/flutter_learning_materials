@@ -17,6 +17,7 @@ import 'package:flutter_learning_materials/flutter_widgets/listtile_widget.dart'
 import 'package:flutter_learning_materials/flutter_widgets/mediaquery_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/modal_bottom_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/page_view_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/richtext_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/row_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/safearea_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/singlechildscroleview_widget.dart';
@@ -67,7 +68,8 @@ class MyApp extends StatelessWidget {
       // home: const CarvedNavbarWidget(),
       // home: const SnackBarWidget(),
       // home: const FlutterToastWidget(),
-      home: const SliderWidget(),
+      // home: const SliderWidget(),
+      home: const RichTextWidget(),
     );
   }
 }
