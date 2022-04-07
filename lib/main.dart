@@ -6,6 +6,7 @@ import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/curved_navigation_bar.dart';
+import 'package:flutter_learning_materials/flutter_widgets/dropdown_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/expanded_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/fluttertoast_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/gradient.dart';
@@ -69,7 +70,8 @@ class MyApp extends StatelessWidget {
       // home: const SnackBarWidget(),
       // home: const FlutterToastWidget(),
       // home: const SliderWidget(),
-      home: const RichTextWidget(),
+      // home: const RichTextWidget(),
+      home: const DropDownWidget(),
     );
   }
 }
