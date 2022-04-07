@@ -3,6 +3,7 @@ import 'package:flutter_learning_materials/flutter_widgets/alert_dialog_widget.d
 import 'package:flutter_learning_materials/flutter_widgets/appbar_text_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/bottom_navigationbar_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/card_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/checkbox_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/column_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/container_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/curved_navigation_bar.dart';
@@ -71,7 +72,8 @@ class MyApp extends StatelessWidget {
       // home: const FlutterToastWidget(),
       // home: const SliderWidget(),
       // home: const RichTextWidget(),
-      home: const DropDownWidget(),
+      // home: const DropDownWidget(),
+      home: const CheckBoxWidget(),
     );
   }
 }
