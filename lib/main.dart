@@ -27,6 +27,7 @@ import 'package:flutter_learning_materials/flutter_widgets/slider_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/sliverappbar_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/snackbar_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/stack_positioned_floatbutton_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/switch_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/tabbar_widget.dart';
 
 void main() {
@@ -73,7 +74,8 @@ class MyApp extends StatelessWidget {
       // home: const SliderWidget(),
       // home: const RichTextWidget(),
       // home: const DropDownWidget(),
-      home: const CheckBoxWidget(),
+      // home: const CheckBoxWidget(),
+      home: const SwitchWidget(),
     );
   }
 }
