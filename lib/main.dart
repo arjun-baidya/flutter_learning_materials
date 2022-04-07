@@ -20,6 +20,7 @@ import 'package:flutter_learning_materials/flutter_widgets/page_view_widget.dart
 import 'package:flutter_learning_materials/flutter_widgets/row_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/safearea_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/singlechildscroleview_widget.dart';
+import 'package:flutter_learning_materials/flutter_widgets/slider_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/sliverappbar_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/snackbar_widget.dart';
 import 'package:flutter_learning_materials/flutter_widgets/stack_positioned_floatbutton_widget.dart';
@@ -65,7 +66,8 @@ class MyApp extends StatelessWidget {
       // home: const AlertDialogWidget(),
       // home: const CarvedNavbarWidget(),
       // home: const SnackBarWidget(),
-      home: const FlutterToastWidget(),
+      // home: const FlutterToastWidget(),
+      home: const SliderWidget(),
     );
   }
 }
