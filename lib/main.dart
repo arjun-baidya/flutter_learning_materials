@@ -86,7 +86,8 @@ class MyApp extends StatelessWidget {
       // home: const ToolTipWidget(),
       // home: const DateTimePickerWidget(),
       // home: const TransformWidget(),
-      home: const DataTableWidget()
+      // home: const DataTableWidget()
+      home: const DataGetExample(),
     );
   }
 }
